@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastrado Banco</title>
+        <style>
+            body {
+                background-color: #d0e4fe;
+            }
+            fieldset
+            {
+                width:1080px;
+                padding:100px;	
+            }
+            .button4 {
+                background-color: #e7e7e7; color: black;
+            } 
+        </style>    
+    </head>
+    <body>
+        <form method="post" action="../Processamento/Processa_Banco.php">
+            <center>
+                <br><br> <br> <br>    
+                <fieldset >
+                    <legend>Cadastre Banco </legend>
+                    <label for="Ban">Nome Banco </label>
+                    <input type="text" name="ban"  id="ban"/>
+                    <input type="submit" name="Enviar"/>
+                </fieldset>
+            </center>
+
+        </form>
+        <a href="../index_cad.php"><button class="button button4">Voltar</button></a>
+
+    </body>
+</html>
